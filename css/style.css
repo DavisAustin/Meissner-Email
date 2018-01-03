@@ -45,7 +45,7 @@ p {
   line-height: 28px; }
 
 .event-cost-text {
-  font-size: 14px; }
+  font-size: 18px; }
 
 strong {
   font-weight: bold; }
@@ -54,6 +54,9 @@ a {
   text-decoration: none;
   margin: 0px;
   padding: 0px; }
+
+ul {
+  margin: 0px; }
 
 .spacer {
   font-size: 5px;
@@ -66,15 +69,13 @@ a {
   width: 100%; }
 
 .body {
-  color: #666; }
-
-.body {
   width: 100%;
   margin: 0px;
   padding: 0px;
   border-spacing: 0px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
+  color: #666;
   background: #EEE; }
 
 .email-container {
@@ -130,7 +131,7 @@ a {
           max-width: 600px; }
   .featured-event-container .featured-event-description {
     width: 100%;
-    padding: 30px 60px 20px 60px; }
+    padding: 30px 60px 60px 60px; }
     .featured-event-container .featured-event-description .title {
       text-align: left;
       align: left; }
@@ -167,7 +168,7 @@ a {
         max-width: 600px; }
   .upcoming-classes-container .upcoming-classes-description {
     width: 100%;
-    padding: 30px 60px 40px 60px; }
+    padding: 30px 60px 60px 60px; }
     .upcoming-classes-container .upcoming-classes-description .title {
       text-align: left;
       align: left; }
@@ -205,7 +206,7 @@ a {
           max-width: 600px; }
   .special-events-container .special-events-description {
     width: 100%;
-    padding: 30px 60px 40px 60px; }
+    padding: 30px 60px 60px 60px; }
     .special-events-container .special-events-description .title {
       text-align: left;
       align: left; }
@@ -217,30 +218,6 @@ a {
 .footer-container {
   width: 100%;
   background: #fff; }
-  .footer-container .website-links-title {
-    text-align: center;
-    margin: 0 auto;
-    align: center; }
-    .footer-container .website-links-title td {
-      padding: 40px 0 20px 0; }
-      .footer-container .website-links-title td a {
-        color: #5BF; }
-        .footer-container .website-links-title td a p {
-          font-size: 16px; }
-  .footer-container .social-icons-container {
-    width: 100%; }
-    .footer-container .social-icons-container table {
-      width: 100%;
-      padding: 0 60px; }
-    .footer-container .social-icons-container td {
-      text-align: center;
-      margin: 0 auto;
-      align: center; }
-    .footer-container .social-icons-container .social-icons-content {
-      width: 100%;
-      padding: 0; }
-      .footer-container .social-icons-container .social-icons-content td {
-        width: 100%; }
   .footer-container .wl-button-container {
     width: 100%;
     padding: 0px; }
@@ -295,6 +272,30 @@ a {
         .footer-container .wl-button-container .wl-button-content td .shop-now-linkj {
           padding-left: 15px;
           padding-right: 15px; }
+  .footer-container .website-links-title {
+    text-align: center;
+    margin: 0 auto;
+    align: center; }
+    .footer-container .website-links-title td {
+      padding: 40px 0 20px 0; }
+      .footer-container .website-links-title td a {
+        color: #5BF; }
+        .footer-container .website-links-title td a p {
+          font-size: 16px; }
+  .footer-container .social-icons-container {
+    width: 100%; }
+    .footer-container .social-icons-container table {
+      width: 100%;
+      padding: 0 60px; }
+    .footer-container .social-icons-container td {
+      text-align: center;
+      margin: 0 auto;
+      align: center; }
+    .footer-container .social-icons-container .social-icons-content {
+      width: 100%;
+      padding: 0; }
+      .footer-container .social-icons-container .social-icons-content td {
+        width: 100%; }
   .footer-container .email-subtext-container {
     width: 100%;
     padding: 0 60px; }
