@@ -1,0 +1,305 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+table,
+tbody,
+tr,
+td {
+  border-spacing: 0px;
+  padding: 0px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+  margin-bottom: 0px; }
+
+h1 {
+  font-family: Lobster Two, Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #444; }
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #005189; }
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #444;
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-size: 18px;
+  line-height: 28px; }
+
+.event-cost-text {
+  font-size: 14px; }
+
+strong {
+  font-weight: bold; }
+
+a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px; }
+
+.spacer {
+  font-size: 5px;
+  line-height: 5px; }
+
+.title {
+  padding-bottom: 20px; }
+
+.email-layout {
+  width: 100%; }
+
+.body {
+  color: #666; }
+
+.body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #EEE; }
+
+.email-container {
+  max-width: 600px;
+  border-collapse: separate;
+  border-spacing: 0px;
+  text-align: center;
+  margin: 0 auto;
+  align: center; }
+
+.header-container {
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  background: #005189; }
+  .header-container .header-content {
+    width: 100%; }
+    .header-container .header-content .meissner-logo-container {
+      width: 29.9%; }
+      .header-container .header-content .meissner-logo-container table {
+        width: 100%; }
+        .header-container .header-content .meissner-logo-container table td {
+          text-align: center;
+          margin: 0 auto;
+          align: center; }
+          .header-container .header-content .meissner-logo-container table td img {
+            width: 100%;
+            max-width: 145px; }
+    .header-container .header-content .meissner-tagline {
+      width: 69.9%;
+      text-align: right; }
+      .header-container .header-content .meissner-tagline p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 22px; }
+
+.featured-event-container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: #fff; }
+  .featured-event-container .featured-event-hero-container {
+    width: 100%; }
+    .featured-event-container .featured-event-hero-container table {
+      width: 100%; }
+      .featured-event-container .featured-event-hero-container table td {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        align: center; }
+        .featured-event-container .featured-event-hero-container table td img {
+          width: 100%;
+          max-width: 600px; }
+  .featured-event-container .featured-event-description {
+    width: 100%;
+    padding: 30px 60px 20px 60px; }
+    .featured-event-container .featured-event-description .title {
+      text-align: left;
+      align: left; }
+    .featured-event-container .featured-event-description .description {
+      padding-bottom: 20px;
+      text-align: left;
+      align: left; }
+
+.upcoming-classes-container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  width: 100%; }
+  .upcoming-classes-container .upcoming-classes-title {
+    text-align: center;
+    margin: 0 auto;
+    align: center; }
+    .upcoming-classes-container .upcoming-classes-title td {
+      padding: 40px 0 40px 0; }
+      .upcoming-classes-container .upcoming-classes-title td a {
+        color: #5BF; }
+        .upcoming-classes-container .upcoming-classes-title td a p {
+          font-size: 16px; }
+  .upcoming-classes-container table {
+    width: 100%; }
+    .upcoming-classes-container table td {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      align: center; }
+      .upcoming-classes-container table td img {
+        width: 100%;
+        max-width: 600px; }
+  .upcoming-classes-container .upcoming-classes-description {
+    width: 100%;
+    padding: 30px 60px 40px 60px; }
+    .upcoming-classes-container .upcoming-classes-description .title {
+      text-align: left;
+      align: left; }
+    .upcoming-classes-container .upcoming-classes-description .description {
+      padding-bottom: 20px;
+      text-align: left;
+      align: left; }
+
+.special-events-container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: #fff; }
+  .special-events-container .special-events-title {
+    text-align: center;
+    margin: 0 auto;
+    align: center; }
+    .special-events-container .special-events-title td {
+      padding: 40px 0 40px 0; }
+      .special-events-container .special-events-title td a {
+        color: #5BF; }
+        .special-events-container .special-events-title td a p {
+          font-size: 16px; }
+  .special-events-container .special-events-hero-container {
+    width: 100%; }
+    .special-events-container .special-events-hero-container table {
+      width: 100%; }
+      .special-events-container .special-events-hero-container table td {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        align: center; }
+        .special-events-container .special-events-hero-container table td img {
+          width: 100%;
+          max-width: 600px; }
+  .special-events-container .special-events-description {
+    width: 100%;
+    padding: 30px 60px 40px 60px; }
+    .special-events-container .special-events-description .title {
+      text-align: left;
+      align: left; }
+    .special-events-container .special-events-description .description {
+      padding-bottom: 20px;
+      text-align: left;
+      align: left; }
+
+.footer-container {
+  width: 100%;
+  background: #fff; }
+  .footer-container .website-links-title {
+    text-align: center;
+    margin: 0 auto;
+    align: center; }
+    .footer-container .website-links-title td {
+      padding: 40px 0 20px 0; }
+      .footer-container .website-links-title td a {
+        color: #5BF; }
+        .footer-container .website-links-title td a p {
+          font-size: 16px; }
+  .footer-container .social-icons-container {
+    width: 100%; }
+    .footer-container .social-icons-container table {
+      width: 100%;
+      padding: 0 60px; }
+    .footer-container .social-icons-container td {
+      text-align: center;
+      margin: 0 auto;
+      align: center; }
+    .footer-container .social-icons-container .social-icons-content {
+      width: 100%;
+      padding: 0; }
+      .footer-container .social-icons-container .social-icons-content td {
+        width: 100%; }
+  .footer-container .wl-button-container {
+    width: 100%;
+    padding: 0px; }
+    .footer-container .wl-button-container td {
+      width: 24.5%;
+      text-align: center;
+      margin: 0 auto;
+      align: center; }
+    .footer-container .wl-button-container .wl-button-content {
+      width: 100%; }
+      .footer-container .wl-button-container .wl-button-content td {
+        align: center;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        color: #005189;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 150%;
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        text-align: center;
+        width: 100%;
+        vertical-align: top; }
+        .footer-container .wl-button-container .wl-button-content td a {
+          align: center;
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: none;
+          background-color: #005189;
+          color: #fff;
+          display: inline-block;
+          font-family: Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 50px;
+          padding-left: 0px;
+          padding-right: 0px;
+          text-align: center;
+          text-decoration: none;
+          white-space: nowrap;
+          width: 100%; }
+        .footer-container .wl-button-container .wl-button-content td .all-classes-link {
+          padding-left: 15px;
+          padding-right: 15px; }
+        .footer-container .wl-button-container .wl-button-content td .class-calendar-link {
+          padding-left: 15px;
+          padding-right: 15px; }
+        .footer-container .wl-button-container .wl-button-content td .special-events-link {
+          padding-left: 15px;
+          padding-right: 15px; }
+        .footer-container .wl-button-container .wl-button-content td .shop-now-linkj {
+          padding-left: 15px;
+          padding-right: 15px; }
+  .footer-container .email-subtext-container {
+    width: 100%;
+    padding: 0 60px; }
+    .footer-container .email-subtext-container .subtext-content p {
+      font-size: 12px;
+      line-height: 16px; }
+      .footer-container .email-subtext-container .subtext-content p a {
+        color: #666; }

@@ -1,0 +1,373 @@
+// Varialbes
+$font-stack: Helvetica, Arial, sans-serif
+$primary-color: #005189
+$secondary-color: #d01b62
+$header-color: #444
+$paragraph-color: #666
+$white: #fff 
+$black: #000
+$email-width: 600px
+
+// Mixins
+=center
+	text-align: center
+	margin: 0 auto
+	align: center
+
+=right
+	text-align: right
+	align: right
+
+=left 
+	text-align: left
+	align: left
+
+// Styles
+body
+	width: 100%
+	margin: 0px
+	padding: 0px
+
+table,
+tbody,
+tr,
+td 
+	border-spacing: 0px
+	padding: 0px
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p
+	margin: 0px
+	margin-bottom: 0px
+
+h1
+	font-family: Lobster Two, $font-stack
+	font-size: 32px
+	font-weight: 300
+	color: $header-color
+
+h2
+	margin-bottom: 10px
+	font-size: 22px
+	font-weight: 700
+	line-height: 26px
+	color: $primary-color
+
+h3
+	font-size: 18px
+	font-weight: 700
+	line-height: 22px
+	color: $header-color
+	padding: 0
+	margin: 0
+
+p 
+	font-size: 18px
+	line-height: 28px
+
+.event-cost-text
+	font-size: 14px
+	
+
+strong 
+	font-weight: bold
+
+a 
+	text-decoration: none
+	margin: 0px
+	padding: 0px
+
+.spacer
+	font-size: 5px
+	line-height: 5px
+
+.title 
+	padding-bottom: 20px
+
+.email-layout
+	width: 100%
+
+.body
+    color: $paragraph-color
+
+.body
+	width: 100%
+	margin: 0px
+	padding: 0px
+	border-spacing: 0px
+	font-family: $font-stack
+	font-weight: 300
+	background: #EEE
+
+.email-container
+	max-width: $email-width
+	border-collapse: separate
+	border-spacing: 0px
+	+center
+
+// Header Styles
+.header-container
+	width: 100%
+	margin: 0px
+	padding: 20px
+	background: $primary-color
+
+	.header-content
+		width: 100%
+
+		.meissner-logo-container
+			width: 29.9%
+
+			table
+				width: 100%
+
+				td 
+					+center
+
+					img
+						width: 100%
+						max-width: 145px
+
+		.meissner-tagline
+			width: 69.9%
+			text-align: right
+
+			p 
+				color: $white
+				font-size: 14px
+				line-height: 22px
+
+
+// Main Ad Styles
+.featured-event-container
+	width: 100%
+	margin: 0px
+	padding: 0px
+	background: $white
+
+	.featured-event-hero-container
+		width: 100%
+
+		table
+			width: 100%
+
+			td
+				width: 100%
+				+center
+
+				img
+					width: 100%
+					max-width: 600px
+
+	.featured-event-description
+		width: 100%
+		padding: 30px 60px 20px 60px
+
+		.title 
+			+left
+
+		.description 
+			padding-bottom: 20px
+			+left
+
+
+// Upcoming Classes Styles
+.upcoming-classes-container
+	width: 100%
+	margin: 0px
+	padding: 0px
+	background: $white
+
+	.upcoming-classes-title
+		+center
+
+		td 
+			padding: 40px 0 40px 0
+
+			a 
+				color: #5BF
+
+				p 
+					font-size: 16px
+
+	.upcoming-classes-hero-container
+	width: 100%
+
+	table
+		width: 100%
+
+		td
+			width: 100%
+			+center
+
+			img
+				width: 100%
+				max-width: 600px
+
+	.upcoming-classes-description
+		width: 100%
+		padding: 30px 60px 40px 60px
+
+		.title
+			+left
+
+		.description 
+			padding-bottom: 20px
+			+left
+
+// Special Events Styles
+.special-events-container
+	width: 100%
+	margin: 0px
+	padding: 0px
+	background: $white
+
+	.special-events-title
+		+center
+
+		td 
+			padding: 40px 0 40px 0
+
+			a 
+				color: #5BF
+
+				p 
+					font-size: 16px
+
+	.special-events-hero-container
+		width: 100%
+
+		table
+			width: 100%
+
+			td
+				width: 100%
+				+center
+
+				img
+					width: 100%
+					max-width: 600px
+
+	.special-events-description
+		width: 100%
+		padding: 30px 60px 40px 60px
+
+		.title 
+			+left
+
+		.description 
+			padding-bottom: 20px
+			+left
+
+// Website Links Styles
+.footer-container
+	width: 100%
+	background: $white
+
+	.website-links-title
+		+center
+
+		td 
+			padding: 40px 0 20px 0
+
+			a 
+				color: #5BF
+
+				p 
+					font-size: 16px
+
+	.social-icons-container
+		width: 100%
+
+		table
+			width: 100%
+			padding: 0 60px
+
+		td
+			+center
+
+		.social-icons-content
+			width: 100%
+			padding: 0
+
+			td
+				width: 100%
+
+	.wl-button-container
+		width: 100%
+		padding: 0px
+
+		td
+			width: 24.5%
+			+center
+
+		.wl-button-content
+			width: 100%
+
+			td
+				align: center
+				-ms-text-size-adjust: 100%
+				-webkit-text-size-adjust: 100%
+				color: $primary-color
+				font-family: $font-stack
+				font-size: 14px
+				line-height: 150%
+				mso-table-lspace: 0
+				mso-table-rspace: 0
+				padding-bottom: 0px
+				padding-top: 0px
+				text-align: center
+				width: 100%
+				vertical-align: top
+
+				a
+					align: center
+					-ms-text-size-adjust: 100%
+					-webkit-text-size-adjust: none
+					background-color: $primary-color
+					color: $white
+					display: inline-block
+					font-family: $font-stack
+					font-size: 14px
+					font-weight: 300
+					line-height: 50px
+					padding-left: 0px
+					padding-right: 0px
+					text-align: center
+					text-decoration: none
+					white-space: nowrap
+					width: 100%
+
+
+				.all-classes-link
+					padding-left: 15px
+					padding-right: 15px
+
+				.class-calendar-link
+					padding-left: 15px
+					padding-right: 15px	
+
+				.special-events-link
+					padding-left: 15px
+					padding-right: 15px
+
+				.shop-now-linkj
+					padding-left: 15px
+					padding-right: 15px
+
+	.email-subtext-container
+		width: 100%
+		padding: 0 60px
+
+		.subtext-content
+
+			p
+				font-size: 12px
+				line-height: 16px
+
+				a
+					color: $paragraph-color
